@@ -9,7 +9,7 @@ public class Attr {
 	  public Attr(String name) {
 	    this.name = name;
 	    }
-	  // Tow parameter constructor i know BOTH the name and the value
+	  // Twp parameter constructor i know BOTH the name and the value
 	  public Attr(String name, Object value) {
 	    this.name = name;
 	    this.value = value;
