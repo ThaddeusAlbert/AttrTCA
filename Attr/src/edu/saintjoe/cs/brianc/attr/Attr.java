@@ -1,35 +1,47 @@
 package edu.saintjoe.cs.brianc.attr;
-// cannot change name, but you can change the value -
+// These comments are added by Brian
+// So this is a comment that I am making for testing purposes only
 public class Attr {
-	  // Once I create an object and give it a name, it CANNOT be changed>
-	  private final String name;
-	  // Value
-	  private Object value = null;
-	  // One parameter constructor i know the name i don't know the value
-	  public Attr(String name) {
-	    this.name = name;
-	    }
-	  // Twp parameter constructor i know BOTH the name and the value
-	  public Attr(String name, Object value) {
-	    this.name = name;
+	
+	// Once I create an object and give it a name, it CANNOT be changed!!
+	private final String name;
+	
+	// "value" can be a reference to ANY kind of object!!
+	private Object value = null;
+	
+	/* ---------------------------------------------------------------------- */
+
+	// One-parameter constructor; I know the name, I don't know the value
+	public Attr(String name) {
+		this.name = name;
+	}
+
+	// Two-parameter constructor; I know BOTH the name and the value
+	public Attr(String name, Object value) {
+		this.name = name;
 	    this.value = value;
 	    }
-	  // Accessor or "getter"
-	  public String getname() {
+
+	// Accessor or "getter"
+	public String getname() {
 	    return name;
 	    }
-	  // Accessor or "getter"
-	  public Object getvalue() {
+
+	// Accessor or "getter"
+	public Object getvalue() {
 	    return value;
 	    }
-	  // Mutator or "setter" for data member called "value"
-	  public Object setValue(Object newValue) {
+
+	// Setter or mututator for data member "value"
+	public Object setValue(Object newValue) {
 	    Object oldVal = value;
 	    value = newValue;
 	    return oldVal;
 	    }
-	  // All classes should have a "toString" method to visualize their contents. print out
-	  public String toString() {
+
+	// ALL classes should have a "toString" method to visualize their contents
+	//   that usually means just printing their data members
+	public String toString() {
 	    return name + "='" + value + "'";
 	    }
 	}
