@@ -34,7 +34,6 @@ package edu.saintjoe.cs.brianc.attr;
 			    decodeColor();
 			    return retval;
 			    }
-
 		  /** Set value to ScreenColor, not description */
 		  public ScreenColor setValue(ScreenColor newValue) {
 			    // do superclass first
