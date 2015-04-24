@@ -13,6 +13,7 @@ package edu.saintjoe.cs.brianc.attr;
 			// super means call the parent class constructor
 			// Note that: the parent class MUST have a constructor
 			// with the indicated signature (e.g. name, value)
+			// Below line is the same as writing Atrr(name, value)
 		    super(name, value);
 		    // System.out.println("C1");
 		    decodeColor();
@@ -21,7 +22,7 @@ package edu.saintjoe.cs.brianc.attr;
 		// constructor No 2
 		// This constructor takes a name only
 		public ColorAttr(String name) {
-			// Call the ColorAttr constructor which mathches the parameters
+			// Call the ColorAttr constructor which matchches the parameters
 			//  in the same order and type
 		    this(name, "transparent");
 		    // System.out.println("C2");

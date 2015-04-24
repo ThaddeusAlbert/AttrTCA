@@ -8,9 +8,9 @@ public class Attr {
 	
 	// "value" can be a reference to ANY kind of object!!
 	private Object value = null;
-	
+	// actions
 	/* ---------------------------------------------------------------------- */
-
+	// data 
 	// One-parameter constructor; I know the name, I don't know the value
 	public Attr(String name) {
 		this.name = name;
