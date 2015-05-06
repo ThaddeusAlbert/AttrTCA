@@ -5,7 +5,7 @@ public class ColorAttrDriver {
 	public static void main(String[] args ) {
 		
 		ColorAttr testOne, testTwo, testThree;
-		Attr testFour;
+		Attr testFour, test Five, testSix; 
 		
 		// We need this object for the third ColorAttr constructor
 		ScreenColor newColor = new ScreenColor("green");
@@ -27,6 +27,12 @@ public class ColorAttrDriver {
 		// Number four
 		testFour = new Attr("ColorFour", "yellow");
 		System.out.println(testFour.toString());
+		// Number Five
+		testFive = new Attr("ColorFive", "chartreuse");
+		System.out.println(testFive.toString());
+		// Number Six
+		testSix = new Attr("ColorSix", "crimson");
+		System.out.println(testSix.toString());
 		
 	} // end main
 }
